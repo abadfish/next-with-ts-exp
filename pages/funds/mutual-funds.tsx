@@ -28,7 +28,7 @@ export default function MutualFunds () {
 
   const fundList = data.map(f => (
       <li key={f.id}>
-        <Link href="/funds/mutual-fund/[fund_code]" as={`/funds/mutual-fund/${f.fund_code}`}> 
+        <Link href="/funds/mutual-funds/[fund_code]" as={`/funds/mutual-funds/${f.fund_code}`}> 
           <a>{`Fund: ${ f.fund_code }`}</a>
         </Link>
       </li>
